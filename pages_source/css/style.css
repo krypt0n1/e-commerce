@@ -1,0 +1,103 @@
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.10rem;
+    margin-top: 10px
+
+
+}
+.topbar {
+	height:30px;
+	
+}
+
+.socialMediaLinks {float:left;}
+.socialMediaLinks a {
+	padding:12px;
+	color:#444;
+}
+.socialMediaLinks a:hover {
+	color:white;
+	transition: .3s ease;
+}
+.socialMediaLinks .fb:hover {background-color:#4267b2;}
+.socialMediaLinks .ig:hover {
+	
+	background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.socialMediaLinks .tw:hover {background-color:#1da1f2;}
+
+.topbar .topnav a {
+	font-size:12px; 
+	color:#444 !important;
+	padding:0 10px;
+}
+.topbar .topnav a:hover {
+	text-decoration: none;
+	color:rgb(139, 114, 250) !important;
+}
+
+.midbar {
+	background-color:rgb(134, 170, 238) !important;
+	color:black;
+}
+.midsearch input[type="search"] {border-radius:0 !important;}
+.dropdown #navbarDropdown {color:white;}
+.panierBtn {
+	border-radius:0 !important;
+	background-color:rgb(40, 20, 224);
+	font-size:12px;
+
+}
+.midbar form input {
+	font-size: 10px;
+	color:#222;
+}
+
+.botbar {background-color: #333 !important;
+        height: 30px;    
+}
+.botbar ul li {padding:0 10px;}
+.botbar ul li a {
+	color:white !important;
+	padding:0;
+}
+.botbar ul li a:hover {filter:opacity(75%);}
+
+
+
+.form-elegant .font-small {
+    font-size: 0.8rem; }
+
+.form-elegant .z-depth-1a {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+    box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25); }
+
+.form-elegant .z-depth-1-half,
+.form-elegant .btn:hover {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }
+
+.form-elegant .modal-header {
+    border-bottom: none; }
+
+.modal-dialog .form-elegant .btn .fab {
+    color: #2196f3!important; }
+
+.form-elegant .modal-body, .form-elegant .modal-footer {
+    font-weight: 400; }
